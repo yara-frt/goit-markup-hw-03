@@ -76,6 +76,10 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+
+}
+
+.logo-padding {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -268,13 +272,16 @@ button {
     gap: 30px;
 }
 
+.team-container {
+padding: 30px;
+}
+
 .title-name {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
-    margin-top: 30px;
 }
 
 .desc-position {
@@ -282,7 +289,6 @@ button {
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
-    padding-bottom: 30px;
     margin-top: 10px;
 }
 
@@ -327,7 +333,7 @@ button {
 
 .filter {
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .list-filter {
@@ -335,6 +341,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -373,10 +380,6 @@ button {
 
 }
 
-.exampl-item {
-    border: 1px solid #EEEEEE;
-}
-
 .subtitle-portfolio {
     text-decoration: none;
     color: var(--main-color);
@@ -395,4 +398,5 @@ button {
 
 .box-example {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
